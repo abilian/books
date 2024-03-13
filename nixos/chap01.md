@@ -14,7 +14,7 @@ Enfin, une exploration avancée des capacités de Nix et NixOS sera entreprise. 
 
 Ce livre s'adresse à un large éventail de professionnels et d'enthousiastes de la technologie, des développeurs logiciels aux administrateurs système, en passant par les étudiants en informatique et les contributeurs open source. Aucune connaissance préalable spécifique de Nix ou NixOS n'est requise, mais une familiarité avec les concepts de base de Linux/Unix et une ouverture à l'apprentissage de nouvelles approches dans la gestion de systèmes et le développement logiciel sont bénéfiques.
 
-À travers cette exploration, nous aspirons non seulement à équiper les lecteurs avec les connaissances et les compétences nécessaires pour utiliser efficacement Nix et NixOS, mais aussi à inspirer une appréciation pour l'innovation et la contribution à une communauté technologique en pleine expansion.
+À travers cette exploration, nous aspirons non seulement à équiper les lecteurs avec les connaissances et les compétences nécessaires pour utiliser efficacement Nix et NixOS, mais aussi à inspirer une appréciation pour l'innovation et encourager la contribution à une communauté technologique en pleine expansion.
 
 ## Public Cible
 
