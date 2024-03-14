@@ -108,3 +108,9 @@ Chaque composant est précédé par un hash unique (représenté par des points 
 ### Importance dans l'écosystème Nix
 
 L'arbre des dépendances et le dépôt Nix sont des composants clés qui permettent à Nix de fournir des environnements de paquets reproductibles et isolés. Cette approche garantit que les logiciels s'exécutent dans des conditions précises et contrôlées, éliminant les "ça marche sur ma machine" et facilitant le déploiement et le développement de logiciels. En outre, cela permet une gestion fine des ressources, puisque les paquets inutilisés peuvent être détectés et supprimés du store, libérant ainsi de l'espace disque.
+
+## En résumé
+
+Nous avons abordé les concepts fondamentaux de Nix, en particulier le langage de programmation Nix au cœur du gestionnaire de paquets et son rôle dans la définition, construction et gestion des paquets et de leurs dépendances. Nous avons exploré les caractéristiques clés du langage, telles que sa pureté fonctionnelle, sa syntaxe concise et sa gestion explicite et isolée des dépendances, illustrées par un exemple concret de déclaration de paquet.
+
+Nous avons également examiné le modèle de paquet de Nix, soulignant son approche originale d'isolation, de pureté et de reproductibilité. Ce modèle permet une gestion des versions et des rollbacks simplifiée, garantissant que les installations de paquets sur différents systèmes soient exactement identiques. L'arbre des dépendances et le dépôt Nix ont été présentés comme des éléments essentiels de cet écosystème, permettant une gestion reproductible et isolée des logiciels, tout en facilitant le déploiement et le développement.

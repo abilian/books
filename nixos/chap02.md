@@ -42,6 +42,6 @@ Nix et NixOS offrent plusieurs avantages distinctifs par rapport aux systèmes t
 - **Isolation et Sécurité** : Minimise les risques de contamination croisée et facilite l'audit des paquets.
 - **Déploiements Déclaratifs et Automatisés** : Utilise une approche déclarative pour la configuration, simplifiant l'automatisation et le déploiement reproductible.
 
-## Conclusion
+## En résumé
 
 Nix et NixOS simplifient la gestion des paquets logiciels et des systèmes d'exploitation, et offrent une solution robuste et flexible aux défis posés par les méthodes traditionnelles. Les avantages de l'approche proposée, qui vont de la gestion des dépendances fonctionnelles à l'automatisation des déploiements, en passant par la reproductibilité et la sécurité, font de ces outils un choix attractif pour les développeurs, les administrateurs système, et toute personne cherchant à optimiser la gestion des systèmes informatiques dont il ou elle a la responsabilité.
