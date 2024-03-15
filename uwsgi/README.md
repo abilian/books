@@ -3,7 +3,12 @@
 - Version: 0.1
 - Status: draft
 
+> **Warning**
+> This book is a work in progress. The content and structure are subject to change.
+
+
 ## Abstract
+
 This book offers a practical exploration of uWSGI, a key tool for deploying and managing web applications. Starting with an introduction to uWSGI, its significance in web development, and basic setup, the content progressively covers advanced configurations, scalability, security, and monitoring to enhance application performance and reliability. 
 
 Real-world applications are examined through case studies, including deployment strategies for various programming languages and frameworks. Additional sections on deploying microservices and utilizing containers highlight modern practices in web development. 
