@@ -1,5 +1,13 @@
 # Concepts Fondamentaux de Nix
 
+## Dans ce chapitre
+
+- Principes du langage de programmation Nix
+- Pureté fonctionnelle et gestion des dépendances dans Nix
+- Syntaxe de Nix et exemple de déclaration de paquet
+- Modèle de paquet Nix pour isolation et reproductibilité
+- Structure de l'arbre des dépendances et fonctionnement du dépôt Nix
+
 ## Le Langage de Programmation Nix
 
 Au cœur de Nix, le gestionnaire de paquets, se trouve un langage de programmation fonctionnel homonyme. Ce langage joue un rôle crucial dans la définition, la construction et la gestion des paquets et de leurs dépendances. Dans cette section, nous allons explorer les principes fondamentaux du langage de programmation Nix, ses caractéristiques uniques, et comment il est utilisé pour créer des environnements logiciels reproductibles.

@@ -1,5 +1,13 @@
 # Installation et Configuration
 
+## Dans ce chapitre
+
+- Étapes pour installer Nix sur Linux ou macOS
+- Configuration de base après l'installation de Nix
+- Activation des fonctionnalités expérimentales de Nix
+- Gestion et utilisation des canaux Nix
+- Utilisation du garbage collector de Nix
+
 ## Installation de Nix
 
 L'installation de Nix marque le premier pas vers l'adoption de cette puissante plateforme de gestion de paquets. Ce processus a été conçu pour être aussi simple et indolore que possible, que vous soyez sous Linux, macOS, ou même dans certaines configurations plus exotiques. Dans cette section, nous allons vous guider à travers les étapes essentielles pour installer Nix sur votre système.

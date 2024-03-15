@@ -37,7 +37,3 @@ Les étudiants en informatique et les chercheurs trouveront dans Nix et NixOS un
 Enfin, les contributeurs open source et les passionnés de technologie qui sont toujours à l'affût de nouveaux outils à maîtriser trouveront un intérêt particulier dans Nix et NixOS. Non seulement ils peuvent utiliser ces outils pour améliorer leurs propres workflows, mais ils ont également l'opportunité de contribuer à un projet en croissance rapide et de participer à une communauté active. Que ce soit en contribuant à Nixpkgs, en améliorant la documentation, ou en partageant des expériences, il existe de nombreuses façons de s'engager.
 
 Cette diversité du public cible reflète la polyvalence et la puissance de Nix et NixOS. Que vous cherchiez à résoudre des problèmes spécifiques de développement logiciel, à gérer des systèmes de manière plus efficace et fiable, à approfondir votre connaissance des systèmes informatiques, ou simplement à explorer de nouvelles technologies, ce livre vise à vous fournir les connaissances et les compétences nécessaires pour tirer pleinement parti de Nix et NixOS.
-
-## En résumé
-
-Nous avons exploré l'importance croissante de Nix et NixOS dans le paysage informatique moderne, mettant en évidence leur approche originale pour répondre aux défis de complexité, fiabilité, sécurité et résilience dans le développement logiciel et la gestion des systèmes.
