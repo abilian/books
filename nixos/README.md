@@ -1,4 +1,11 @@
-# Introduction à Nix et NixOS
+# Introduction à Nix et NixOS (Draft)
+
+- Status: Draft
+- Version: 0.1 (2024/03/19)
+- Authors: Abilian Labs (a division of Abilian SAS)
+
+> **Warning**
+> This book is a work in progress. The content and structure are subject to change.
 
 L'objectif principal de ce livre est de fournir une introduction complète et approfondie à ces outils, en démystifiant leurs concepts, en présentant leurs avantages et en guidant les utilisateurs à travers une exploration pratique et théorique.
 

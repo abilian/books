@@ -1,10 +1,12 @@
 # uWSGI Essentials: Configuration, Optimization, and Best Practices
 
-- Version: 0.1
-- Status: draft
+- Status: Draft
+- Version: 0.1 (2024/03/19)
+- Authors: Abilian Labs (a division of Abilian SAS)
 
 > **Warning**
 > This book is a work in progress. The content and structure are subject to change.
+
 
 
 ## Abstract
