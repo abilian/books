@@ -37,3 +37,7 @@ The Web Application Firewall (WAF) Pattern involves deploying a WAF that sits be
 - **Application-Level Security**: Embedding security checks within the application itself, although this may lead to duplicated effort across multiple apps.
 
 - **Network-Level Security**: Relying on lower-level network firewalls, but these won't have the application-level inspection capabilities of a WAF.
+
+## References
+
+- <https://lab.abilian.com/Tech/Security/WAF/>
