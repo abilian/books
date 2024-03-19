@@ -42,6 +42,6 @@ Transactional Memory allows regions of code to be executed in a transactional co
 
 - **Manual Lock Management**: Offers finer control over resource access but at the cost of increased complexity and potential for errors like deadlocks.
 
-- **Optimistic and Pessimistic Locking**: These mechanisms offer different trade-offs in terms of concurrency and consistency but require manual conflict resolution.
+- **[Optimistic Locking](./Optimistic%20Locking.md) and [Pessimistic Locking](./Pessimistic%20Locking.md)**: These mechanisms offer different trade-offs in terms of concurrency and consistency but require manual conflict resolution.
 
 - **Database Transactions**: For scenarios primarily dealing with persistent storage, leveraging ACID transactions at the database level might be more appropriate but could limit the types of resources that can be managed.
