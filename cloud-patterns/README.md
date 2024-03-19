@@ -1,6 +1,6 @@
 # An Almanac of Cloud Patterns
 
-> **Warning**
+> [!WARNING]
 > This book is a work in progress. The content and structure are subject to change.
 
 - Status: Draft
