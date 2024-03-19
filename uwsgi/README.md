@@ -54,6 +54,10 @@ This guide is designed for web developers, system administrators, and IT profess
 
 ### Appendices
 
-#### Appendix A: The History of uWSGI [TBC] 
+#### Appendix A: The History of uWSGI 
 
-[TODO]
+#### Appendix B: Alternative Application Servers and Process Managers
+
+#### Appendix C: uWSGI Configuration Reference [TODO]
+
+#### Appendix D: Glossary [TODO]
