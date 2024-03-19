@@ -22,7 +22,7 @@ A Saga can be orchestrated either by a central coordinator or choreographed thro
 
 ## 4. Benefits
 
-- **[Data Consistency](./Data Consistency.md)**: Helps maintain eventual consistency across multiple services.
+- **[Data Consistency](./Data%20Consistency.md)**: Helps maintain eventual consistency across multiple services.
 
 - **Failure Isolation**: If one step fails, compensating transactions can be triggered to roll back the preceding steps.
 

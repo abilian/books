@@ -41,4 +41,4 @@ The Backends for Frontends (BFF) Pattern involves creating separate backend serv
 
 - **Versioned APIs**: Different API versions can be exposed for different clients, though this may not provide as tailored an experience as BFFs.
 
-- **[API Gateway](./API Gateway.md)**: A single API gateway can serve multiple client types but may require complex configuration to serve diverse needs.
+- **[API Gateway](./API%20Gateway.md)**: A single API gateway can serve multiple client types but may require complex configuration to serve diverse needs.

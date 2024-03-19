@@ -36,4 +36,4 @@ The Health Check API Pattern involves implementing a health check interface (usu
 
 - **Logging and Monitoring**: These can provide similar diagnostics but usually are not as real-time as health checks for detecting issues.
 
-- **[Rate Limiter](./Rate Limiter.md) and [Circuit Breaker](./Circuit Breaker.md)**: These can protect against failure cascades but don't provide direct health information about services.
+- **[Rate Limiter](./Rate%20Limiter.md) and [Circuit Breaker](./Circuit%20Breaker.md)**: These can protect against failure cascades but don't provide direct health information about services.

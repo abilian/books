@@ -36,9 +36,9 @@ The Retry Pattern suggests that an operation should be retried if it fails due t
 
 ## 6. Alternative Solutions
 
-- **[Circuit Breaker](./Circuit Breaker.md)**: Can be used to stop all attempts to invoke a service that is likely to fail, allowing it to recover.
+- **[Circuit Breaker](./Circuit%20Breaker.md)**: Can be used to stop all attempts to invoke a service that is likely to fail, allowing it to recover.
 
-- **[Timeout and Retries](./Timeout and Retries.md)**: Can be combined with the Retry Pattern to ensure that each retry is time-bounded.
+- **[Timeout and Retries](./Timeout%20and%20Retries.md)**: Can be combined with the Retry Pattern to ensure that each retry is time-bounded.
 
 
 ## 7. Tools

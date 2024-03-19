@@ -29,7 +29,7 @@ Assign a dedicated database to each microservice. This allows each service to ma
 
 ## 5. Drawbacks
 
-- **[Data Consistency](./Data Consistency.md)**: Ensuring data consistency across services can be challenging and usually requires additional coordination.
+- **[Data Consistency](./Data%20Consistency.md)**: Ensuring data consistency across services can be challenging and usually requires additional coordination.
 
 - **Data Duplication**: There might be cases where some data needs to be duplicated across multiple services.
 
@@ -42,4 +42,4 @@ Assign a dedicated database to each microservice. This allows each service to ma
 
 - **Shared Database**: A single, shared database for all services, though this brings us back to the problems the pattern aims to solve.
 
-- **[API Composition](./API Composition.md)**: Instead of each service owning its data, some services act as aggregators, pulling data from multiple services. However, this could create performance bottlenecks and availability issues.
+- **[API Composition](./API%20Composition.md)**: Instead of each service owning its data, some services act as aggregators, pulling data from multiple services. However, this could create performance bottlenecks and availability issues.

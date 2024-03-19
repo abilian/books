@@ -18,7 +18,7 @@ Implement a leasing mechanism where an instance or node can acquire a lease for 
 
 ## 4. Benefits
 
-- **[Data Consistency](./Data Consistency.md)**: Helps ensure that only one instance at a time can modify a resource, thereby preventing conflicting writes and ensuring data consistency.
+- **[Data Consistency](./Data%20Consistency.md)**: Helps ensure that only one instance at a time can modify a resource, thereby preventing conflicting writes and ensuring data consistency.
 
 - **Failover Support**: The leasing mechanism often incorporates automatic lease expiration, making it easier to implement failover procedures. If an instance holding a lease fails, the lease will expire, allowing another instance to acquire it.
 
@@ -44,4 +44,4 @@ Implement a leasing mechanism where an instance or node can acquire a lease for 
 
 - **Distributed Locking Services**: Use a separate service like ZooKeeper to manage locks, although this introduces another dependency and potential point of failure.
 
-- **[Consensus Protocol](./Consensus Protocol.md)**: Use algorithms like Paxos or Raft to reach agreement across distributed nodes, although these are often more complex to implement.
+- **[Consensus Protocol](./Consensus%20Protocol.md)**: Use algorithms like Paxos or Raft to reach agreement across distributed nodes, although these are often more complex to implement.

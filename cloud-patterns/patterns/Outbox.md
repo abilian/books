@@ -36,4 +36,4 @@ The Outbox Pattern involves using a database table as an "outbox" to store event
 
 - **Two-Phase Commit**: Ensures atomicity across multiple services, but introduces complexity and potential for distributed locks.
 
-- **[Event Sourcing](./Event Sourcing.md)**: Achieves a similar outcome by storing state changes as events, though this might require a larger overhaul of the application logic.
+- **[Event Sourcing](./Event%20Sourcing.md)**: Achieves a similar outcome by storing state changes as events, though this might require a larger overhaul of the application logic.

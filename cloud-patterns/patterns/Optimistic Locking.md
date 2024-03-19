@@ -38,7 +38,7 @@ Optimistic locking avoids locks and instead relies on conflict detection. It all
 
 ## 6. Alternative Solutions
 
-- **[Pessimistic Locking](./Pessimistic Locking.md)**: Offers stronger guarantees at the cost of reduced concurrency and potential for deadlocks.
+- **[Pessimistic Locking](./Pessimistic%20Locking.md)**: Offers stronger guarantees at the cost of reduced concurrency and potential for deadlocks.
 
 - **CRDTs or Operational Transformation**: These can resolve conflicts automatically but come with their own complexities and may not be suitable for all kinds of data or operations.
 

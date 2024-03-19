@@ -34,6 +34,6 @@ The Canary Deployment Pattern involves rolling out the changes to a small subset
 
 ## 6. Alternative Solutions
 
-- **[Blue-Green Deployment](./Blue-Green Deployment.md)**: Switch between two identical environments but might require more resources.
+- **[Blue-Green Deployment](./Blue-Green%20Deployment.md)**: Switch between two identical environments but might require more resources.
 
-- **[Feature Toggle](./Feature Toggle.md)**: Toggle features on or off without deployments but can complicate application logic.
+- **[Feature Toggle](./Feature%20Toggle.md)**: Toggle features on or off without deployments but can complicate application logic.

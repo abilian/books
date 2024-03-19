@@ -36,4 +36,4 @@ The Composite Frontend Pattern suggests creating a unified frontend that aggrega
 
 - **Single Page Applications (SPA)**: An SPA could interact with multiple services via APIs, but this places more logic on the client side.
 
-- **[Backends for Frontends](./Backends for Frontends.md)**: Tailoring backend services for specific frontend experiences, though this may lead to backend duplication.
+- **[Backends for Frontends](./Backends%20for%20Frontends.md)**: Tailoring backend services for specific frontend experiences, though this may lead to backend duplication.

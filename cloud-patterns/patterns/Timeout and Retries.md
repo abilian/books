@@ -34,6 +34,6 @@ The Timeout Pattern sets a maximum time limit for an operation to be completed. 
 
 ## 6. Alternative Solutions
 
-- **[Circuit Breaker](./Circuit Breaker.md)**: Can halt all calls to a particular service if it’s identified as a failing component, allowing it to recover.
+- **[Circuit Breaker](./Circuit%20Breaker.md)**: Can halt all calls to a particular service if it’s identified as a failing component, allowing it to recover.
 
 - **[Bulkhead](./Bulkhead.md)**: Isolates failures but doesn’t provide the time-bound execution that a timeout ensures.

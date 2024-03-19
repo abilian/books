@@ -42,4 +42,4 @@ The Pub-Sub pattern involves a "Publisher" that sends messages without the knowl
 
 - **[Observer](./Observer.md)**: Useful for simpler scenarios where all observers are known in advance and can be directly notified.
 
-- **[Queue-Based Load Leveling](./Queue-Based Load Leveling.md)**: Suitable for work distribution but not as flexible for dynamic and selective message broadcasting.
+- **[Queue-Based Load Leveling](./Queue-Based%20Load%20Leveling.md)**: Suitable for work distribution but not as flexible for dynamic and selective message broadcasting.

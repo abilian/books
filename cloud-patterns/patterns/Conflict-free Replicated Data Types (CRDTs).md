@@ -40,7 +40,7 @@ Conflict-free Replicated Data Types (CRDTs) offer a way to achieve strong eventu
 
 ## 6. Alternative Solutions
 
-- **[Operational Transformation](./Operational Transformation.md)**: Another approach to achieving eventual consistency but can be more complex to implement and maintain.
+- **[Operational Transformation](./Operational%20Transformation.md)**: Another approach to achieving eventual consistency but can be more complex to implement and maintain.
 
 - **Two-Phase Commit and Locking Mechanisms**: These provide strong consistency but can be problematic in partition-prone or high-latency environments.
 

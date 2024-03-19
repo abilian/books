@@ -40,6 +40,6 @@ Decompose the monolithic application into a set of loosely coupled microservices
 
 ## 6. Alternative Solutions
 
-- **[Modular Monolith](./Modular Monolith.md)**: Instead of fully decomposing into microservices, keep a monolithic architecture but make it modular for easier management and partial scaling.
+- **[Modular Monolith](./Modular%20Monolith.md)**: Instead of fully decomposing into microservices, keep a monolithic architecture but make it modular for easier management and partial scaling.
 
 - **Serverless Functions**: For certain use-cases, breaking down functionalities into serverless functions may offer some of the advantages of decomposition without the overhead of managing microservices.

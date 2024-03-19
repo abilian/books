@@ -64,7 +64,7 @@ Application Architecture patterns serve as blueprints for designing and structur
 
 Backend and Business Logic patterns focus on the architectural organization and computational behavior of the system's core functionality. These patterns guide how to structure business logic, data manipulation, and backend computations in a way that is maintainable, scalable, and decoupled. They offer strategies for breaking down complex applications into more manageable pieces, whether that's into smaller services or within a modular monolithic architecture. Additionally, they address challenges in coordinating and simplifying interactions between different parts of the system. From managing long-running transactions across multiple services to optimizing data retrieval and modification, these patterns provide a blueprint for building robust and efficient backend systems.
   
-- **[API Composition](./patterns/API Composition.md)**: Aggregates multiple service calls into a single higher-level API call, simplifying client-side code.  
+- **[API Composition](./patterns/API%20Composition.md)**: Aggregates multiple service calls into a single higher-level API call, simplifying client-side code.  
   
 - **[CQRS](./patterns/CQRS.md)**: Separates read and write operations, optimizing performance and complexity.  
   
@@ -72,24 +72,24 @@ Backend and Business Logic patterns focus on the architectural organization and 
   
 - **[Decomposition](./patterns/Decomposition.md)**: Breaks down monolithic applications into microservices for better scalability and maintainability.  
   
-- **[Modular Monolith](./patterns/Modular Monolith.md)**: Organizes a monolithic application into well-defined, interchangeable modules.  
+- **[Modular Monolith](./patterns/Modular%20Monolith.md)**: Organizes a monolithic application into well-defined, interchangeable modules.  
   
-- **[Serverless (Function as a Service)](./patterns/Serverless (Function as a Service).md)**: Leverages on-demand function execution to perform compute tasks without server management.  
+- **[Serverless (Function as a Service)](./patterns/Serverless%20(Function%20as%20a%20Service).md)**: Leverages on-demand function execution to perform compute tasks without server management.  
   
   
 ### Data Management and Persistence  
 
 Data Management and Persistence patterns focus on the optimal storage, retrieval, and manipulation of data, serving as the backbone of any robust application. These patterns address various challenges related to data scalability, consistency, and complexity in distributed systems. They offer solutions for organizing databases in a microservices architecture, improving query performance, and managing data access patterns. Whether dealing with the partitioning of data across multiple databases or handling version control for audit trails, these patterns provide essential strategies to ensure efficient and reliable data operations. They are particularly valuable in modern, distributed architectures where data is a critical asset that must be managed with care to provide timely and reliable services.  
   
-- **[Data Lake](./patterns/Data Lake.md)**: Stores raw data in a scalable storage pool for on-demand analysis and transformation.  
+- **[Data Lake](./patterns/Data%20Lake.md)**: Stores raw data in a scalable storage pool for on-demand analysis and transformation.  
   
-- **[Data Versioning](./patterns/Data Versioning.md)**: Keeps multiple versions of data to support history tracking and rollbacks.  
+- **[Data Versioning](./patterns/Data%20Versioning.md)**: Keeps multiple versions of data to support history tracking and rollbacks.  
   
 - **[Database-per-Service](./patterns/Database-per-Service.md)**: Assigns a dedicated database to each microservice.  
   
-- **[Materialized View](./patterns/Materialized View.md)**: Precomputes query results for fast data retrieval.  
+- **[Materialized View](./patterns/Materialized%20View.md)**: Precomputes query results for fast data retrieval.  
   
-- **[Hot-Cold Partitioning](./patterns/Hot-Cold Partitioning.md)**: Distributes data into frequently and rarely accessed partitions for optimized database performance.  
+- **[Hot-Cold Partitioning](./patterns/Hot-Cold%20Partitioning.md)**: Distributes data into frequently and rarely accessed partitions for optimized database performance.  
   
 - **[Sharding](./patterns/Sharding.md)**: Distributes data across multiple databases or servers to improve scalability and performance.  
   
@@ -99,19 +99,19 @@ Data Management and Persistence patterns focus on the optimal storage, retrieval
 Concurrency and Synchronization patterns deal with the complexities that arise when multiple entities—such as threads, processes, or distributed components—access and manipulate shared resources concurrently. These patterns offer various strategies for ensuring data integrity, avoiding conflicts, and achieving consensus among different parts of a system. They span a wide range of solutions, from optimistic and pessimistic locking mechanisms to advanced consensus algorithms and data structures designed to work well in distributed settings. Whether you're developing a multi-user collaborative platform, a distributed database, or a high-performance computing application, these patterns provide critical tools for managing the challenges associated with concurrent data access and modification.  
 
   
-- **[Optimistic Locking](./patterns/Optimistic Locking.md)**: Assumes minimal contention and allows multiple transactions to proceed, checking for conflicts at commit time.  
+- **[Optimistic Locking](./patterns/Optimistic%20Locking.md)**: Assumes minimal contention and allows multiple transactions to proceed, checking for conflicts at commit time.  
   
-- **[Pessimistic Locking](./patterns/Pessimistic Locking.md)**: Locks resources for exclusive access during a transaction to avoid conflicts.  
+- **[Pessimistic Locking](./patterns/Pessimistic%20Locking.md)**: Locks resources for exclusive access during a transaction to avoid conflicts.  
   
 - **Consensus Protocol**: Algorithms to achieve consensus in a distributed system.  
   
-- **[Conflict-free Replicated Data Types (CRDTs)](./patterns/Conflict-free Replicated Data Types (CRDTs).md)**: Allows multiple replicas to be updated independently and converge to the same state.  
+- **[Conflict-free Replicated Data Types (CRDTs)](./patterns/Conflict-free%20Replicated%20Data%20Types%20(CRDTs).md)**: Allows multiple replicas to be updated independently and converge to the same state.  
   
-- **[Operational Transformation](./patterns/Operational Transformation.md)**: Enables real-time collaboration by resolving operation order conflicts.  
+- **[Operational Transformation](./patterns/Operational%20Transformation.md)**: Enables real-time collaboration by resolving operation order conflicts.  
   
 - **[Lease](./patterns/Lease.md)**: Grants exclusive access to a resource for a specified time to prevent conflicting writes.  
   
-- **[Transactional Memory](./patterns/Transactional Memory.md)**: Simplifies concurrent programming by allowing code to be executed in transaction-like blocks.  
+- **[Transactional Memory](./patterns/Transactional%20Memory.md)**: Simplifies concurrent programming by allowing code to be executed in transaction-like blocks.  
   
   
 ### Message and Event Handling  
@@ -120,11 +120,11 @@ Message and Event Handling patterns focus on the efficient management, routing, 
 
 - **[Publish-Subscribe](./patterns/Publish-Subscribe.md)**: Decouples message producers and consumers through topic-based messaging.  
   
-- **[Dead-letter Queue](./patterns/Dead-letter Queue.md)**: Stores failed messages for later reprocessing or analysis.  
+- **[Dead-letter Queue](./patterns/Dead-letter%20Queue.md)**: Stores failed messages for later reprocessing or analysis.  
   
-- **[Queue-Based Load Leveling](./patterns/Queue-Based Load Leveling.md)**: Distributes incoming workload across resources.  
+- **[Queue-Based Load Leveling](./patterns/Queue-Based%20Load%20Leveling.md)**: Distributes incoming workload across resources.  
   
-- **[Event Sourcing](./patterns/Event Sourcing.md)**: Uses immutable event logs to capture state changes.  
+- **[Event Sourcing](./patterns/Event%20Sourcing.md)**: Uses immutable event logs to capture state changes.  
   
 - **[Outbox](./patterns/Outbox.md)**: Ensures reliable message processing through a staged event-driven architecture.  
   
@@ -137,42 +137,42 @@ Message and Event Handling patterns focus on the efficient management, routing, 
 
 [Intro: TODO]
 
-- **[Composite Frontend](./patterns/Composite Frontend.md)**: Combines multiple UI components or services into a single interface.  
+- **[Composite Frontend](./patterns/Composite%20Frontend.md)**: Combines multiple UI components or services into a single interface.  
   
-- **[Backends for Frontends](./patterns/Backends for Frontends.md)**: Tailors back-end services to meet specific front-end needs.  
+- **[Backends for Frontends](./patterns/Backends%20for%20Frontends.md)**: Tailors back-end services to meet specific front-end needs.  
   
-- **[API Gateway](./patterns/API Gateway.md)**: Serves as a single entry point for managing and routing API requests.  
+- **[API Gateway](./patterns/API%20Gateway.md)**: Serves as a single entry point for managing and routing API requests.  
   
-- **[Feature Toggle](./patterns/Feature Toggle.md)**: Enables toggling features on and off without redeploying code.  
+- **[Feature Toggle](./patterns/Feature%20Toggle.md)**: Enables toggling features on and off without redeploying code.  
   
   
-## Security and Compliance  
+## 2. Security and Compliance  
   
 Security patterns are essential frameworks for safeguarding applications and systems against a broad spectrum of security threats and vulnerabilities. These patterns offer established methodologies for addressing critical aspects of security, such as authentication, authorization, data encryption, and compliance. By leveraging these patterns, organizations can create robust security postures that safeguard both data and resources across multiple layers of their technology stack. They enable the systematic identification and mitigation of security risks, helping to ensure the confidentiality, integrity, and availability of business-critical applications and data. From API security to zero-trust architectures, these patterns provide the guidelines necessary to build inherently secure systems that can adapt to evolving security challenges.  
 
 
-- **[Secrets Management](./patterns/Secrets Management.md)**: Centralizes and secures sensitive information like API keys and passwords.  
+- **[Secrets Management](./patterns/Secrets%20Management.md)**: Centralizes and secures sensitive information like API keys and passwords.  
   
-- **[API Security](./patterns/API Security.md)**: Implements security mechanisms for APIs, such as rate limiting and token authentication.  
+- **[API Security](./patterns/API%20Security.md)**: Implements security mechanisms for APIs, such as rate limiting and token authentication.  
   
-- **[Identity Federation](./patterns/Identity Federation.md)**: Allows users to authenticate across multiple systems using a single identity.  
+- **[Identity Federation](./patterns/Identity%20Federation.md)**: Allows users to authenticate across multiple systems using a single identity.  
   
-- **[Identity and Access Management (IAM)](./patterns/Identity and Access Management (IAM).md)**: Manages user identities and permissions.  
+- **[Identity and Access Management (IAM)](./patterns/Identity%20and%20Access%20Management%20(IAM).md)**: Manages user identities and permissions.  
   
-- **[Data Encryption](./patterns/Data Encryption.md)**: Encrypts data during transit between systems.  
+- **[Data Encryption](./patterns/Data%20Encryption.md)**: Encrypts data during transit between systems.  
   
-- **[Data Encryption at Rest](./patterns/Data Encryption at Rest.md)**: Encrypts stored data.  
+- **[Data Encryption at Rest](./patterns/Data%20Encryption%20at%20Rest.md)**: Encrypts stored data.  
   
-- **[Zero Trust Architecture](./patterns/Zero Trust Architecture.md)**: Assumes no implicit trust and verifies every request, regardless of location.  
+- **[Zero Trust Architecture](./patterns/Zero%20Trust%20Architecture.md)**: Assumes no implicit trust and verifies every request, regardless of location.  
   
-- **[Valet Key](./patterns/Valet Key.md)**: Provides limited access tokens for accessing specific resources.  
+- **[Valet Key](./patterns/Valet%20Key.md)**: Provides limited access tokens for accessing specific resources.  
   
-- **[Web Application Firewall (WAF)](./patterns/Web Application Firewall (WAF).md)**: Filters and monitors HTTP traffic between a web application and the Internet.  
+- **[Web Application Firewall (WAF)](./patterns/Web%20Application%20Firewall%20(WAF).md)**: Filters and monitors HTTP traffic between a web application and the Internet.  
   
-- **[Container Security](./patterns/Container Security.md)**: Focuses on securing containerized applications.  
+- **[Container Security](./patterns/Container%20Security.md)**: Focuses on securing containerized applications.  
   
   
-## Operational patterns  
+## 3. Operational Patterns  
 
 Operational patterns focus on the practical aspects of deploying, managing, and scaling applications and services in a production environment. These patterns provide strategies for smooth deployments, fault tolerance, system resilience, and effective scaling. They go beyond the design and development phases to address the challenges that arise when applications are live and serving users. By employing these patterns, organizations can achieve high levels of reliability, availability, and performance, making it easier to meet and exceed business and user expectations.  
   
@@ -180,17 +180,17 @@ Operational patterns focus on the practical aspects of deploying, managing, and 
 
 [Intro: TODO]
   
-- **[Blue-Green Deployment](./patterns/Blue-Green Deployment.md)**: Allows for zero-downtime deployments by maintaining two production environments.  
+- **[Blue-Green Deployment](./patterns/Blue-Green%20Deployment.md)**: Allows for zero-downtime deployments by maintaining two production environments.  
   
-- **[Canary Deployment](./patterns/Canary Deployment.md)**: Rolls out changes to a small group of users before deploying to everyone.  
+- **[Canary Deployment](./patterns/Canary%20Deployment.md)**: Rolls out changes to a small group of users before deploying to everyone.  
   
-- **[Branch by Abstraction](./patterns/Branch by Abstraction.md)**: Hides feature development behind abstractions, enabling incremental rollouts.  
+- **[Branch by Abstraction](./patterns/Branch%20by%20Abstraction.md)**: Hides feature development behind abstractions, enabling incremental rollouts.  
   
-- **[Strangler Fig](./patterns/Strangler Fig.md)**: Gradually replaces legacy systems by building new functionality alongside them.  
+- **[Strangler Fig](./patterns/Strangler%20Fig.md)**: Gradually replaces legacy systems by building new functionality alongside them.  
   
-- **[Parallel Run](./patterns/Parallel Run.md)**: Compares results from new and existing systems to ensure correct operation.  
+- **[Parallel Run](./patterns/Parallel%20Run.md)**: Compares results from new and existing systems to ensure correct operation.  
   
-- **[Expand and Contract (Parallel Change)](./patterns/Expand and Contract (Parallel Change).md)**: Allows for rolling updates and rollbacks by keeping old and new systems compatible.  
+- **[Expand and Contract (Parallel Change)](./patterns/Expand%20and%20Contract%20(Parallel%20Change).md)**: Allows for rolling updates and rollbacks by keeping old and new systems compatible.  
   
   
 ### Fault Tolerance and Resilience  
@@ -199,11 +199,11 @@ Operational patterns focus on the practical aspects of deploying, managing, and 
   
 - **[Ambassador](./patterns/Ambassador.md)**: Externalizes a service’s network communication to improve testing, monitoring, and resiliency.  
   
-- **[Circuit Breaker](./patterns/Circuit Breaker.md)**: Prevents failure cascade by cutting off failing services.  
+- **[Circuit Breaker](./patterns/Circuit%20Breaker.md)**: Prevents failure cascade by cutting off failing services.  
   
 - **[Bulkhead](./patterns/Bulkhead.md)**: Isolates system components to contain failures.  
   
-- **[Timeout and Retries](./patterns/Timeout and Retries.md)**: Defines a maximum time for operations, preventing indefinite hangs.  
+- **[Timeout and Retries](./patterns/Timeout%20and%20Retries.md)**: Defines a maximum time for operations, preventing indefinite hangs.  
   
 - **[Retry](./patterns/Retry.md)**: Retries operations in case of transient failures.  
   
@@ -216,9 +216,9 @@ Operational patterns focus on the practical aspects of deploying, managing, and 
   
 - **[Cache-Aside](./patterns/Cache-Aside.md)**: Explicitly loads data into cache, improving performance.  
   
-- **[Rate Limiter](./patterns/Rate Limiter.md)**: Controls the rate of requests to prevent system overload.  
+- **[Rate Limiter](./patterns/Rate%20Limiter.md)**: Controls the rate of requests to prevent system overload.  
   
-- **[Queue-Based Load Leveling](./patterns/Queue-Based Load Leveling.md)**: Balances and distributes incoming workloads.  
+- **[Queue-Based Load Leveling](./patterns/Queue-Based%20Load%20Leveling.md)**: Balances and distributes incoming workloads.  
   
 - **[Throttling](./patterns/Throttling.md)**: Restricts the number of simultaneous requests to manage resource utilization.  
   
@@ -227,18 +227,18 @@ Operational patterns focus on the practical aspects of deploying, managing, and 
 
 [Intro: TODO]
  
-- **[Health Check API](./patterns/Health Check API.md)**: Provides a way to check system components' statuses.  
+- **[Health Check API](./patterns/Health%20Check%20API.md)**: Provides a way to check system components' statuses.  
   
 - **[Geodes](./patterns/Geodes.md)**: Visualizes metrics and performance data in real-time.  
   
-- **[Operational Aggregator](./patterns/Operational Aggregator.md)**: Collects data from multiple systems for a unified operational view.  
+- **[Operational Aggregator](./patterns/Operational%20Aggregator.md)**: Collects data from multiple systems for a unified operational view.  
   
   
 ### Misc / Cross-cutting Concerns  
 
 [Intro: TODO]
 
-- **[Anti-Corruption Layer](./patterns/Anti-Corruption Layer.md)**: Protects system integrity by isolating different subsystems.  
+- **[Anti-Corruption Layer](./patterns/Anti-Corruption%20Layer.md)**: Protects system integrity by isolating different subsystems.  
   
 - **[Observer](./patterns/Observer.md)**: Notifies dependent objects of state changes without them being tightly coupled.  
   

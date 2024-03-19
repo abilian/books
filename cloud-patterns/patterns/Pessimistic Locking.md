@@ -18,7 +18,7 @@ Pessimistic locking solves this problem by ensuring exclusive access to a resour
 
 ## 4. Benefits
 
-- **[Data Consistency](./Data Consistency.md)**: By ensuring that only one actor can modify a resource at a given time, pessimistic locking provides a strong guarantee against data corruption.
+- **[Data Consistency](./Data%20Consistency.md)**: By ensuring that only one actor can modify a resource at a given time, pessimistic locking provides a strong guarantee against data corruption.
 
 - **Simplifies Error Handling**: There is less need for complex merge or conflict resolution logic since conflicts are prevented upfront.
 
@@ -38,8 +38,8 @@ Pessimistic locking solves this problem by ensuring exclusive access to a resour
 
 ## 6. Alternative Solutions
 
-- **[Optimistic Locking](./Optimistic Locking.md)**: Allows multiple actors to proceed with reads and writes based on versions and performs checks only at commit time to ensure no conflicts.
+- **[Optimistic Locking](./Optimistic%20Locking.md)**: Allows multiple actors to proceed with reads and writes based on versions and performs checks only at commit time to ensure no conflicts.
 
-- **[Transactional Memory](./Transactional Memory.md)**: Allows code to be executed in a transactional context, providing automatic rollback capabilities in the event of conflicts, at the cost of additional system complexity.
+- **[Transactional Memory](./Transactional%20Memory.md)**: Allows code to be executed in a transactional context, providing automatic rollback capabilities in the event of conflicts, at the cost of additional system complexity.
 
-- **[Event Sourcing](./Event Sourcing.md)**: By transforming operations into a sequence of immutable events, one can reconstruct the state of a resource without the need for locks, although this approach comes with its own complexities.
+- **[Event Sourcing](./Event%20Sourcing.md)**: By transforming operations into a sequence of immutable events, one can reconstruct the state of a resource without the need for locks, although this approach comes with its own complexities.

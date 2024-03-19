@@ -35,7 +35,7 @@ The API Composition pattern suggests creating a service (or extending an existin
 
 - **Single Point of Failure**: If not designed for fault tolerance, the API composer can become a bottleneck or point of failure.
 
-- **[Data Consistency](./Data Consistency.md)**: As the composer fetches data from multiple services, there could be consistency issues if the data changes in between fetch operations.
+- **[Data Consistency](./Data%20Consistency.md)**: As the composer fetches data from multiple services, there could be consistency issues if the data changes in between fetch operations.
 
 
 ## 6. Alternative Solutions

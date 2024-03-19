@@ -42,6 +42,6 @@ Operational Transformation (OT) is a technique that transforms operations in suc
 
 - **[Conflict-free Replicated Data Types ()**: These are data structures designed to allow multiple replicas to be updated independently and concurrently, with a mechanism to merge updates into a consistent state.
 
-- **[Pessimistic Locking](./Pessimistic Locking.md)**: While impractical for many real-time collaborative applications due to its impact on responsiveness, it can be suitable for less time-sensitive applications.
+- **[Pessimistic Locking](./Pessimistic%20Locking.md)**: While impractical for many real-time collaborative applications due to its impact on responsiveness, it can be suitable for less time-sensitive applications.
 
 - **Snapshots and Merging**: Take periodic snapshots of the shared data structure and resolve conflicts through merging. This is simpler but can lead to a less fluid user experience.

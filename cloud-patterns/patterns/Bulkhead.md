@@ -38,4 +38,4 @@ The Bulkhead Pattern segregates services and resources into isolated "compartmen
 
 - **Rate Limiting**: Controls the number of requests to prevent overload but does not isolate failures.
 
-- **[Circuit Breaker](./Circuit Breaker.md)**: Prevents failure cascade but also doesn’t offer resource isolation like bulkheads.
+- **[Circuit Breaker](./Circuit%20Breaker.md)**: Prevents failure cascade but also doesn’t offer resource isolation like bulkheads.

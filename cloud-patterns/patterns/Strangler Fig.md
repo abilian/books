@@ -34,6 +34,6 @@ The Strangler Fig Pattern involves building a new system around the boundaries o
 
 ## 6. Alternative Solutions
 
-- **[Blue-Green Deployment](./Blue-Green Deployment.md)**: Useful for releasing a new version of an application but doesn’t provide the gradual replacement that Strangler Fig offers.
+- **[Blue-Green Deployment](./Blue-Green%20Deployment.md)**: Useful for releasing a new version of an application but doesn’t provide the gradual replacement that Strangler Fig offers.
 
 - **Feature Flags**: Enables toggling features on and off but generally applies to individual features rather than entire systems.

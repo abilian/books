@@ -36,4 +36,4 @@ The Ambassador Pattern involves creating a helper service, known as an ambassado
 
 - **Library-based Approaches**: Instead of a separate service, a shared library can offer similar functionalities but must be implemented in each service.
 
-- **[API Gateway](./API Gateway.md)**: A centralized API Gateway could potentially handle some of the responsibilities of an ambassador but at the cost of making the architecture less decentralized.
+- **[API Gateway](./API%20Gateway.md)**: A centralized API Gateway could potentially handle some of the responsibilities of an ambassador but at the cost of making the architecture less decentralized.

@@ -42,4 +42,4 @@ Introduce an abstraction layer between the existing implementation and the new c
 
 - **Feature Flags**: A simpler mechanism for toggling behavior but often not suited for deep architectural changes.
 
-- **[Parallel Run](./Parallel Run.md)**: As discussed earlier, this involves running a new system parallel to the old one for validation but may not be feasible for all types of changes due to resource constraints.
+- **[Parallel Run](./Parallel%20Run.md)**: As discussed earlier, this involves running a new system parallel to the old one for validation but may not be feasible for all types of changes due to resource constraints.
