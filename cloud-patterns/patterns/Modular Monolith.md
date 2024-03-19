@@ -1,4 +1,4 @@
-# Modular Monolith Pattern
+# Modular Monolith ("Modulith") Pattern
 
 
 ## 1. Context
@@ -43,3 +43,7 @@ Organize the monolithic application into well-defined, loosely coupled modules, 
 - **Microservices Architecture**: If the challenges and costs of managing a distributed system are acceptable, a full transition to microservices could offer greater benefits in scalability and technological agility.
 
 - **Layered Architecture**: Continue with a monolithic architecture but impose strict layering rules to separate concerns, though this doesn’t offer as much modularity or independence as a Modular Monolith.
+
+## References
+
+- <https://lab.abilian.com/Tech/Architecture%20%26%20Design/Modulith/>
