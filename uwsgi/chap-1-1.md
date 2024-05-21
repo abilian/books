@@ -9,15 +9,15 @@ uWSGI is an application server that bridges web clients and backend applications
 The architecture of uWSGI is built around key components:
 
 - **The uWSGI Server:** A container for running applications, capable of handling concurrent requests with configurable process and threading models to meet different deployment needs.
-  
+
 - **Plugins:** Dynamically loaded modules that extend uWSGI's functionality to support additional languages and protocols, enabling compatibility with a wide range of web application frameworks.
-  
+
 - **Protocols:** While it excels with the WSGI protocol for Python applications, uWSGI also supports various other protocols through plugins, enhancing its versatility.
-  
+
 - **Workers and Processes:** By spawning multiple worker processes, uWSGI can handle numerous requests simultaneously, a critical feature for scalability and performance.
-  
+
 - **The Emperor Mode:** A process manager for overseeing multiple uWSGI instances, facilitating efficient management of several applications in hosting environments or large-scale deployments.
-  
+
 - **Configuration:** Offers extensive configuration options in formats like INI, XML, and YAML, providing adaptability to various project needs.
 
 uWSGI's design caters to a broad spectrum of web applications, enabling developers to deploy applications efficiently and securely at scale.
@@ -30,6 +30,4 @@ uWSGI's efficiency in worker and process management is crucial for scalability a
 
 ## Summary
 
-In this chapter, we have provided an overview of uWSGI, emphasizing its role as an essential tool for web application deployment and management. We distinguished uWSGI by its modular architecture, support across multiple programming languages, and adaptability through its plugin system. You learned that uWSGI serves as a bridge between web clients and backend applications, emphasizing its scalability, performance, and support for various web protocols. The chapter highlighted uWSGI's ability to handle requests concurrently, manage multiple applications via the Emperor mode, and its extensive configuration options. 
-
-The forthcoming chapters will guide you through setting up, configuring, and optimizing uWSGI in real-world scenarios.
+In this chapter, we have provided an overview of uWSGI, emphasizing its role as an essential tool for web application deployment and management. We distinguished uWSGI by its modular architecture, support across multiple programming languages, and adaptability through its plugin system. You learned that uWSGI serves as a bridge between web clients and backend applications, emphasizing its scalability, performance, and support for various web protocols. The chapter highlighted uWSGI's ability to handle requests concurrently, manage multiple applications via the Emperor mode, and its extensive configuration options.

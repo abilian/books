@@ -77,4 +77,4 @@ To verify that uWSGI is running your application correctly, open a web browser a
 
 ## Summary
 
-You now have a basic uWSGI setup running your web application. This chapter covered the essentials to get you started, including installation, configuration, and serving your first request. As you become more familiar with uWSGI, you'll be able to explore its more advanced features and optimization techniques to improve the performance and scalability of your applications.
+You now have a basic uWSGI setup running your web application. This chapter covered the essentials to get you started, including installation, configuration, and serving your first request.

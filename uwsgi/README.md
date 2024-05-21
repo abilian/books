@@ -1,7 +1,7 @@
 # uWSGI Essentials: Configuration, Optimization, and Best Practices
 
 - Status: Draft
-- Version: 0.1 (2024/03/19)
+- Version: 0.1.1 (2024/05/21)
 - Authors: Abilian Labs (a division of Abilian SAS)
 
 > [!WARNING]
@@ -10,11 +10,11 @@
 
 ## Abstract
 
-This book offers a practical exploration of uWSGI, a key tool for deploying and managing web applications. Starting with an introduction to uWSGI, its significance in web development, and basic setup, the content progressively covers advanced configurations, scalability, security, and monitoring to enhance application performance and reliability. 
+This book offers a practical exploration of uWSGI, a key tool for deploying and managing web applications. Starting with an introduction to uWSGI, its significance in web development, and basic setup, the content progressively covers advanced configurations, scalability, security, and monitoring to enhance application performance and reliability.
 
-Real-world applications are examined through case studies, including deployment strategies for various programming languages and frameworks. Additional sections on deploying microservices and utilizing containers highlight modern practices in web development. 
+Real-world applications are examined through case studies, including deployment strategies for various programming languages and frameworks. Additional sections on deploying microservices and utilizing containers highlight modern practices in web development.
 
-Appendices, a glossary, and an index serve as valuable resources for detailed uWSGI options, troubleshooting, and further learning. 
+Appendices, a glossary, and an index serve as valuable resources for detailed uWSGI options, troubleshooting, and further learning.
 
 This guide is designed for web developers, system administrators, and IT professionals looking for a factual and comprehensive overview of uWSGI's capabilities and best practices.
 
@@ -54,7 +54,7 @@ This guide is designed for web developers, system administrators, and IT profess
 
 ### Appendices
 
-#### Appendix A: The History of uWSGI 
+#### Appendix A: The History of uWSGI
 
 #### Appendix B: Alternative Application Servers and Process Managers
 

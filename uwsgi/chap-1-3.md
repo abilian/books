@@ -55,5 +55,3 @@ Choosing the right protocol depends on your deployment environment and the speci
 ## Summary
 
 This chapter covered the integration of uWSGI with web applications, focusing on the configuration for Python WSGI applications and extending to applications in other languages. Understanding how to properly configure uWSGI for your application is key to leveraging its full potential and ensuring efficient and scalable web application deployment.
-
-In the following chapters, we'll explore configuring uWSGI in different environments, including integration with popular web servers, and delve into advanced features and optimization techniques to enhance your application's performance.

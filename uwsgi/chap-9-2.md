@@ -1,11 +1,11 @@
-# Annex: Alternativs to uWSGI
+# Annex: Alternatives to uWSGI
 
-There are no direct alternatives to uWSGI that encompass all its functionalities, but rather two complementary categories of tools:
+There are no direct alternatives to uWSGI that encompass all its functionalities, but rather two complementary categories of tools, that we will present in more detail below:
 
-- Web and Application Servers: This category includes tools like Gunicorn, Daphne, Nginx (with modules like Phusion Passenger for app serving), Apache with mod_wsgi, and others. These tools are focused on serving web applications by handling HTTP requests, executing application code, and delivering content to clients. They provide the direct interface between web clients (browsers) and backend applications, similar to uWSGI, particularly in environments that use specific protocols like WSGI, ASGI, etc.
+- **Web and Application Servers**: This category includes tools like Gunicorn, Daphne, Nginx (with modules like Phusion Passenger for app serving), Apache with mod_wsgi, and others. These tools are focused on serving web applications by handling HTTP requests, executing application code, and delivering content to clients. They provide the direct interface between web clients (browsers) and backend applications, similar to uWSGI, particularly in environments that use specific protocols like WSGI, ASGI, etc.
 
-- Process Managers and Supervisors: This category includes tools like PM2, Circus, Supervisor, and others. These tools are designed to manage processes, ensuring they start, remain running, and restart if they crash. They are more about maintaining application uptime and managing the application's operational aspects rather than directly handling web requests.
-    
+- **Process Managers and Supervisors**: This category includes tools like PM2, Circus, Supervisor, and others. These tools are designed to manage processes, ensuring they start, remain running, and restart if they crash. They are more about maintaining application uptime and managing the application's operational aspects rather than directly handling web requests.
+
 ## Web and Application Servers
 
 ### Gunicorn
@@ -59,7 +59,7 @@ Link: <https://nginx.com> or <https://freenginx.org/>
 ## Process Managers and Supervisors
 
 ### PM2
- 
+
 - **Focus**: PM2 is a powerful, widely-used process manager for Node.js applications, though it can manage applications in other languages as well. It provides an easy way to manage and daemonize applications, allowing them to run in the background as services.
 - **Features**: PM2 includes features such as load balancing, zero-downtime reloading, monitoring, and logging. It is particularly favored in Node.js ecosystems for its comprehensive application management capabilities.
 - **Use Case Comparison**: While PM2 is not a web server or application server in the same vein as uWSGI, it's particularly useful for process management, auto-restarting crashed applications, and simplifying deployment workflows.

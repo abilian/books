@@ -4,7 +4,7 @@
 > This book is a work in progress. The content and structure are subject to change.
 
 - Status: Draft
-- Version: 0.1 (2024/03/19)
+- Version: 0.1.1 (2024/05/21)
 - Authors: Abilian Labs (a division of Abilian SAS)
 
 ## Introduction

@@ -17,7 +17,7 @@ server {
     # Include uWSGI parameter mappings
     include uwsgi_params;
     # Forward requests to uWSGI socket
-    uwsgi_pass unix:/path/to/your/uwsgi.sock; 
+    uwsgi_pass unix:/path/to/your/uwsgi.sock;
   }
 }
 ```
@@ -46,7 +46,7 @@ Apache is another widely used web server known for its flexibility and support f
 ```apache
 <VirtualHost *:80>
   ServerName yourdomain.com
-  
+
   <Location />
     ProxyPass "uwsgi://unix:/path/to/your/uwsgi.sock|uwsgi://localhost:3031/"
   </Location>
@@ -125,6 +125,4 @@ This configuration sets up a frontend that listens on port 80, forwarding reques
 
 ## Summary
 
-Integrating uWSGI with a web server is a critical step in deploying your web applications. By following the configuration steps outlined for Nginx, Apache, and other popular web servers or reverse proxies, you can set up a robust environment that efficiently handles web requests and serves your application to users. 
-
-The next part will delve into advanced uWSGI configurations, exploring how to further optimize your application's performance and scalability.
+Integrating uWSGI with a web server is a critical step in deploying your web applications. By following the configuration steps outlined for Nginx, Apache, and other popular web servers or reverse proxies, you can set up a robust environment that efficiently handles web requests and serves your application to users.
