@@ -250,3 +250,17 @@ Operational patterns focus on the practical aspects of deploying, managing, and 
 - **[Sidecar](./patterns/Sidecar.md)**: Extends and enhances a main application container without changing it.
 
 - **[Choreography](./patterns/Choreography.md)**: Decentralizes business logic by allowing services to work together without a central coordinator.
+
+### References / Bibliography
+
+- "Foundational DevOps Patterns" (2023) - https://arxiv.org/abs/2302.01053
+
+- "Patterns for Software Orchestration on the Cloud" (2015) - https://hillside.net/plop/2015/papers/proceedings/papers/sousa.pdf
+
+- "Cloud Design Patterns" (2022) https://learn.microsoft.com/en-us/azure/architecture/patterns/
+
+- https://cloudpatterns.org/design_patterns/ (2024)
+
+- https://cloudpatterns.org/compound_patterns/ (2024)
+
+- https://www.cloudcomputingpatterns.org/ (2020)
