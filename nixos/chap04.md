@@ -60,6 +60,16 @@ nix --version
 
 Si l'installation a réussi, cette commande affichera la version de Nix installée sur votre système.
 
+### Installations alternatives
+
+Sous Ubuntu, vous pouvez utiliser le paquet `nix-bin` pour installer Nix via `apt` (ou `apt-get`, ou `aptitude`, etc.):
+
+```bash
+sudo apt update
+sudo apt install nix-bin
+```
+
+
 ## Configuration de Base
 
 Après avoir installé Nix, la prochaine étape cruciale est de configurer votre environnement pour tirer le meilleur parti de cet outil puissant. La configuration de base de Nix est relativement simple, mais elle jette les bases pour une gestion des paquets efficace et flexible.
