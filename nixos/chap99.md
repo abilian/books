@@ -1,6 +1,6 @@
 # Appendice 1: La thèse de Dolstra
 
-La thèse d'Eelco Dolstra, intitulée **The Purely Functional Software Deployment Model**, est la principale référence académique pour comprendre Nix, malgré son caractère technique et formel. Écrite il y a presque 20 ans, elle reste étonnamment accessible, toujours pertinente malgré son ancienneté, car une partie importante de son contenu est philosophique plutôt que technique. Ce résumé vise à condenser certaines des idées clés de la thèse, afin d'inciter à lire le texte complet ou du moins fournir un aperçu rapide.
+La thèse d'Eelco Dolstra, intitulée **[The Purely Functional Software Deployment Model](https://edolstra.github.io/pubs/phd-thesis.pdf)** (PDF, 281 pages), est la principale référence académique pour comprendre Nix. Écrite il y a presque 20 ans, elle reste étonnamment accessible et toujours pertinente malgré son ancienneté, car une partie importante de son contenu est philosophique plutôt que technique. Ce résumé vise à condenser certaines des idées clés de la thèse, afin d'inciter à lire le texte complet ou du moins fournir un aperçu rapide.
 
 ### Déploiement Correct des Logiciels
 
