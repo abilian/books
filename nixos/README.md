@@ -16,3 +16,11 @@ En second lieu, ce livre se veut un guide pratique. Au-delà de la théorie, nou
 Troisièmement, nous visons le développement de compétences. Les lecteurs seront équipés pour créer leurs propres paquets Nix, comprendre et utiliser des fonctionnalités avancées telles que les overlays, et gérer efficacement des environnements multi-utilisateurs. Des exemples concrets et des études de cas fourniront le contexte nécessaire pour illustrer ces concepts en action.
 
 Enfin, une exploration avancée des capacités de Nix et NixOS sera entreprise. Cela inclut la création d'environnements isolés, la gestion fine des versions et des rollback, et l'application de Nix dans des contextes de déploiement complexes. Nous aborderons comment ces capacités peuvent être exploitées pour répondre à des besoins spécifiques, tels que la mise en œuvre de déploiements atomiques et la garantie de la reproductibilité à travers des environnements hétérogènes.
+
+## TOC
+
+- [Préface](./chap01.md)
+- [Introduction](./chap02.md)
+- [Concepts fondamentaux](./chap03.md)
+- [Installation et configuration](./chap04.md)
+- [Appendice 1: La thèse de Dolstra](./chap99.md)
