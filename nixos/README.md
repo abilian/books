@@ -1,7 +1,7 @@
 # Introduction à Nix et NixOS (Draft)
 
 - Status: Draft
-- Version: 0.1 (2024/03/19)
+- Version: 0.2 (2024/06/24)
 - Authors: Abilian Labs (a division of Abilian SAS)
 
 > [!WARNING]
