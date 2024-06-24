@@ -33,7 +33,9 @@ Becoming a software architect requires deliberate preparation and career plannin
 ## Resources for Aspiring Architects
 
 Several resources can aid in the preparation to become a software architect:
-- **Books and Publications**: Titles like "[The Fundamentals of Software Architecture](http://fundamentalsofsoftwarearchitecture.com/)" or "[Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html)" provide a comprehensive overview of the necessary skills and knowledge.
+- **Books and Publications**:
+  - Titles like "[The Fundamentals of Software Architecture](http://fundamentalsofsoftwarearchitecture.com/)" or "[Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html)" provide a comprehensive overview of the necessary skills and knowledge.
+  - "The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise" by Gregor Hohpe emphasize the evolving role of the software architect in bridging the gap between technical and business aspects.
 - **Conferences and Workshops**: Participating in industry conferences, can provide exposure to new ideas and networking opportunities.
 - **Online Learning Platforms**: Engaging with platforms (MOOCs or dedicated sites) that offer courses on software architecture, including practical lessons and theoretical knowledge.
 - **Mentorship Programs**: Learning directly from experienced architects through mentorship programs can provide real-world insights and guidance.

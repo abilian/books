@@ -4,7 +4,7 @@
 > This book is a work in progress. The content and structure are subject to change.
 
 - Status: Draft
-- Version: 0.1.1 (2024/05/21)
+- Version: 0.1.2 (2024/06/24)
 - Authors: Abilian Labs (a division of Abilian SAS)
 
 ## Introduction
@@ -135,7 +135,7 @@ Message and Event Handling patterns focus on the efficient management, routing, 
 
 - **[Saga](./patterns/Saga.md)**: Manages complex business workflows through a series of coordinated messages.
 
-- **The Actor Mode**: TODO
+- **The Actor Model**: TODO
 
 
 ### Frontend and User Interface
