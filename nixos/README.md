@@ -1,7 +1,7 @@
 # Introduction à Nix et NixOS (Draft)
 
 - Status: Draft
-- Version: 0.2 (2024/06/24)
+- Version: 0.2.1 (2024/07/10)
 - Authors: Abilian Labs (a division of Abilian SAS)
 
 > [!WARNING]
@@ -23,4 +23,5 @@ Enfin, une exploration avancée des capacités de Nix et NixOS sera entreprise. 
 - [Introduction](./chap02.md)
 - [Concepts fondamentaux](./chap03.md)
 - [Installation et configuration](./chap04.md)
+- [Flakes](./chap98.md)
 - [Appendice 1: La thèse de Dolstra](./chap99.md)
