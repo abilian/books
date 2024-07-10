@@ -13,6 +13,7 @@
 - [NixOS Wiki - Main Page](https://nixos.wiki/wiki/Main_Page)
 - [Nix Manual (Stable)](https://nixos.org/manual/nix/stable/)
 - [Nix Pills](https://nixos.org/guides/nix-pills/)
+- https://serokell.io/blog/what-is-nix
 
 ## Nixpkgs
 
@@ -29,11 +30,9 @@
 - [NixOS Wiki - Flakes](https://nixos.wiki/wiki/Flakes)
 - [Practical Nix Flake Anatomy: A Guided Tour of flake.nix](https://vtimofeenko.com/posts/practical-nix-flake-anatomy-a-guided-tour-of-flake.nix/)
 - [Learn Flakes the Fun Way](https://lyte.dev/blog/learn-flakes-the-fun-way/)
-- [Nix Flakes RFC](https://github.com/NixOS/rfcs/pull/49)
-- [Flakes on Discourse](https://discourse.nixos.org/t/nix-flakes-impressions-feedback/6521)
+- [Nix Flakes RFC](https://github.com/tweag/rfcs/blob/flakes/rfcs/0049-flakes.md)
 - https://serokell.io/blog/practical-nix-flakes
 - [Flakes in Action](https://www.tweag.io/blog/2020-05-25-flakes/)
-- [Nix Flakes and Purely Functional Package Management](https://serokell.io/blog/nix-flakes)
 
 ## Nickel
 
@@ -43,3 +42,4 @@
 
 - [NixOS Blog](https://nixos.org/blog.html)
 - https://www.tweag.io/blog/tags/nix/
+- https://serokell.io/blog/nix
