@@ -12,12 +12,11 @@
 - Définition et utilisation des sorties des flakes (packages, devShells, checks, etc.)
 - Avantages et limitations des flakes
 
-
-## Qu'est-ce qu'un Flake ?
+## Qu'est-ce qu'un flake ?
 
 Les flakes représentent une évolution significative dans l'écosystème Nix, apportant une nouvelle approche pour structurer, gérer et partager des projets. Introduits pour répondre aux défis de la gestion des dépendances et de la reproductibilité des environnements, les flakes offrent une manière modulaire et déclarative de décrire les composants d'un projet Nix, en définissant clairement les entrées et les sorties d'un projet. Bien qu'encore expérimentaux, les flakes ont rapidement gagné en popularité parmi les utilisateurs avancés de Nix pour leur capacité à simplifier et à standardiser de nombreuses tâches courantes.
 
-## Définition d'un Flake
+## Définition d'un flake
 
 Un flake est essentiellement une fonction qui prend des entrées (inputs) et produit des sorties (outputs). Les entrées peuvent être des références valides, telles que d'autres flakes ou des chemins de fichiers, et les sorties doivent suivre un schéma défini. Voici un exemple simple de définition d'un flake :
 
@@ -30,7 +29,7 @@ Un flake est essentiellement une fonction qui prend des entrées (inputs) et pro
 }
 ```
 
-## Structure et Syntaxe des Flakes
+## Structure et syntaxe des flakes
 
 ### Description
 
@@ -72,9 +71,9 @@ Exemple de sorties avec des paquets et un shell de développement :
 }
 ```
 
-## 18.4 Utilisation des Flakes
+## Utilisation des flakes
 
-### 18.4.1 Créer un Flake
+### Créer un flake
 
 Pour créer un flake, il suffit de définir un fichier `flake.nix` dans le répertoire de votre projet avec la structure de base décrite ci-dessus. Ensuite, vous pouvez initialiser et verrouiller les dépendances avec les commandes suivantes :
 
@@ -83,7 +82,7 @@ nix flake init
 nix flake lock
 ```
 
-### 18.4.2 Exécuter et Tester des Flakes
+### Exécuter et tester des flakes
 
 Pour exécuter une application définie dans un flake, utilisez `nix run` :
 
@@ -93,9 +92,9 @@ nix run .#default
 
 Pour tester les sorties d'un flake, vous pouvez utiliser `nix flake check` qui exécutera tous les tests définis sous l'attribut `checks`.
 
-## 18.5 Exemples Pratiques
+## Exemples pratiques
 
-### 18.5.1 Exemple de Flake Simple
+### Exemple de flake simple
 
 Un flake simple avec une description, des entrées et une sortie de paquet :
 
@@ -111,7 +110,7 @@ Un flake simple avec une description, des entrées et une sortie de paquet :
 }
 ```
 
-### 18.5.2 Gestion des Dépendances avec les Flakes
+### Gestion des dépendances avec les flakes
 
 Les flakes permettent de gérer facilement les dépendances de projet en déclarant des entrées spécifiques. Par exemple, pour utiliser une version particulière de `nixpkgs` :
 
@@ -126,7 +125,7 @@ Les flakes permettent de gérer facilement les dépendances de projet en déclar
 }
 ```
 
-## 18.6 Avantages et Limitations des Flakes
+## Avantages et limitations des flakes
 
 Les flakes offrent plusieurs avantages, notamment une meilleure gestion des dépendances, une reproductibilité améliorée et une modularité accrue des configurations. Cependant, étant encore expérimentaux, ils peuvent subir des modifications et certaines fonctionnalités pourraient évoluer dans les futures versions de Nix.
 
@@ -134,7 +133,8 @@ Les flakes offrent plusieurs avantages, notamment une meilleure gestion des dép
 
 Les flakes représentent une avancée significative dans l'écosystème Nix, offrant une manière structurée et modulaire de gérer les projets et leurs dépendances. En comprenant et en utilisant les flakes, les utilisateurs de Nix peuvent créer des configurations plus robustes et maintenables, tout en tirant parti des puissantes fonctionnalités de ce gestionnaire de paquets unique.
 
-## Références
+## Liens / Références
 
 - https://nixos.wiki/wiki/Flakes
 - https://vtimofeenko.com/posts/practical-nix-flake-anatomy-a-guided-tour-of-flake.nix/
+- https://lyte.dev/blog/learn-flakes-the-fun-way/
