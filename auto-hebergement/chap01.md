@@ -10,14 +10,14 @@ Cependant, l’autohébergement ne se résume pas à l’achat d’un serveur et
 
 ## Définition et concepts de base
 
-L’autohébergement repose sur l’idée de transformer un ordinateur ou un serveur en une plateforme capable de fournir des services accessibles via Internet. Ces services peuvent inclure, sans s'y limiter :
+L’autohébergement repose sur l’idée de utiliser un ordinateur ou un serveur comme une plateforme capable de fournir des services accessibles via Internet. Ces services peuvent inclure, sans s'y limiter :
 
 - **Un site web** : héberger votre blog, portfolio ou site d’entreprise.
 - **Un serveur de messagerie** : envoyer et recevoir des emails sous votre propre domaine.
 - **Un serveur de stockage** : stocker et synchroniser vos fichiers dans le cloud, à l'aide de solutions comme Nextcloud.
 - **Un serveur de messagerie instantanée** : communiquer de manière privée avec vos amis, famille ou collègues.
 
-En résumé, l'autohébergement transforme votre espace numérique en une entité autonome, où vous avez la maîtrise totale de vos données. Contrairement aux services hébergés par des tiers, où vos données sont stockées sur les serveurs d’une entreprise externe, l’autohébergement vous donne un contrôle complet sur la localisation, la gestion, et la sécurité de ces données.
+L'autohébergement transforme votre espace numérique en une entité autonome, où vous avez la maîtrise totale de vos données. Contrairement aux services hébergés par des tiers, où vos données sont stockées sur les serveurs d’une entreprise externe, l’autohébergement vous donne un contrôle complet sur la localisation, la gestion, et la sécurité de ces données.
 
 ### Infrastructure nécessaire
 
@@ -41,7 +41,7 @@ L'autohébergement n'est pas un concept nouveau. Aux débuts du Web, avant l'ém
 
 Dans les années 1990 et 2000, avec l'arrivée de services d'hébergement web à faible coût, l'autohébergement est devenu moins courant, car il était souvent plus simple et plus économique de confier cette tâche à des professionnels. Cependant, les révélations concernant la vie privée, comme celles faites par Edward Snowden en 2013, ainsi que la centralisation croissante des services en ligne, ont ravivé l'intérêt pour l'autohébergement.
 
-Aujourd'hui, l'autohébergement est plus accessible que jamais. Grâce à des projets open source comme Nextcloud, Mastodon ou Yunohost, même les utilisateurs non techniques peuvent installer et gérer leurs propres services en ligne. Ce renouveau s'inscrit dans une tendance plus large vers la décentralisation d'Internet, où les utilisateurs cherchent à regagner le contrôle de leurs données et à réduire leur dépendance aux grandes entreprises technologiques.
+Aujourd'hui, l'autohébergement est plus accessible que jamais. Grâce à des projets open source comme Freedom Box, Nextcloud, Mastodon ou Yunohost, même les utilisateurs non techniques peuvent installer et gérer leurs propres services en ligne. Ce renouveau s'inscrit dans une tendance plus large vers la décentralisation d'Internet, où les utilisateurs cherchent à regagner le contrôle de leurs données et à réduire leur dépendance aux grandes entreprises technologiques.
 
 ## Avantages et inconvénients de l'autohébergement
 
@@ -58,12 +58,12 @@ Comme toute approche, l'autohébergement présente à la fois des avantages et d
 
 - **Complexité technique** : L’autohébergement nécessite des connaissances en administration système, en sécurité informatique, et en gestion réseau.
 - **Responsabilité accrue** : Vous devez gérer les mises à jour, les sauvegardes, et la sécurité de vos services.
-- **Coût initial** : Bien que l'autohébergement puisse être moins coûteux à long terme, l’investissement initial en matériel et en infrastructure peut être significatif.
+- **Coût initial** : Bien que l'autohébergement soit souvent moins coûteux à long terme, l’investissement initial en matériel et en infrastructure peut être significatif.
 - **Maintenance continue** : L’autohébergement demande du temps et des efforts pour maintenir les services en fonctionnement optimal.
 
 ## L'autohébergement et le logiciel libre : une relation symbiotique
 
-L'autohébergement et le logiciel libre (ou open source) sont intrinsèquement liés et partagent des valeurs fondamentales qui en font des alliés naturels dans le paysage numérique contemporain. Comprendre cette relation est essentiel pour apprécier pleinement les avantages de l'autohébergement et exploiter tout le potentiel des technologies disponibles.
+L'autohébergement et le logiciel libre (ou *open source*) sont intrinsèquement liés et partagent des valeurs fondamentales qui en font des alliés naturels. Comprendre cette synergie est essentiel pour apprécier pleinement les avantages de l'autohébergement et exploiter tout le potentiel des technologies disponibles.
 
 L'autohébergement et le logiciel libre sont complémentaires et se renforcent mutuellement. En combinant l'autohébergement avec des logiciels libres, les utilisateurs maximisent leur contrôle, leur sécurité et leur indépendance, tout en participant à un mouvement mondial pour un Internet plus ouvert, transparent et collaboratif. Pour quiconque envisage de se lancer dans l'autohébergement, le recours aux logiciels libres n'est pas seulement une option recommandée, mais bien souvent la meilleure voie pour atteindre des objectifs d'indépendance et de confidentialité.
 
