@@ -4,8 +4,8 @@
 > This book is a work in progress. The content and structure are subject to change.
 
 - Status: Draft
-- Version: 0.1.2 (2024/06/24)
-- Authors: Abilian Labs (a division of Abilian SAS)
+- Version: 0.1.3 (2024/09/16)
+- Authors: Stefane Fermigier / Abilian Labs (a division of Abilian SAS)
 
 ## Introduction
 
@@ -45,15 +45,15 @@ The book is organized into multiple sections, each dealing with a specific aspec
 - [What is Software Architecture?](./software-architecture/chap01.md)
 - [The Role of a Software Architect and Preparing for the Position](./software-architecture/chap02.md)
 
-#### Application Architecture
+#### Application Architecture (TBW)
 
 In this section, we focus on the structural core of any software system — its architecture. As the backbone that supports all functionality, application architecture encompasses everything from the backend processes and business logic to the frontend user interfaces that users interact with. We will explore a variety of architectural patterns that define how applications are structured and how they function. These patterns provide a blueprint for building scalable, maintainable, and high-performing applications but also guide the integration of various components into a cohesive system. We will cover common patterns such as layered architecture, client-server, and service-oriented architectures, as well as newer approaches like microservices and serverless computing.
 
-#### Security and Compliance
+#### Security and Compliance (TBW)
 
 With great power comes great responsibility: the power to design software systems comes with the imperative to secure them. This section addresses the critical concerns of security and compliance within software systems. We will explore architectural patterns that enhance security and ensure that systems adhere to regulatory standards. Understanding these patterns is crucial for protecting sensitive data and preventing unauthorized access, thus maintaining the integrity and trustworthiness of your systems. Topics include secure design principles, data encryption strategies, and compliance frameworks that align with global standards. Our discussion will provide the tools and knowledge needed to build security directly into the infrastructure of your applications.
 
-#### Operational Patterns
+#### Operational Patterns (TBW)
 
 Often overlooked but vital to any software’s success, operational patterns address the ongoing ‘life-cycle’ of your software—focusing on how it’s deployed, monitored, and maintained. This section discusses strategies that ensure your software operates effectively and can adapt to changes and challenges as they arise. We will cover Deployment and Release strategies that streamline your delivery processes, Fault Tolerance and Resilience to keep your systems robust under stress, Scalability and Load Balancing techniques to handle growth and demand, and Monitoring and Observability to ensure you can always assess the health and performance of your systems. By mastering these operational patterns, you ensure that your software not only performs well under normal conditions but also maintains its reliability and efficiency through any situation.
 
