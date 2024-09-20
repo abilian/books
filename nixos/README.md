@@ -23,5 +23,9 @@ Enfin, nous explorerons les capacités avancées de Nix et NixOS. Cela inclut la
 - [Introduction](./chap02.md)
 - [Concepts fondamentaux](./chap03.md)
 - [Installation et configuration](./chap04.md)
+
+Chapitres en cours de rédaction / révision:
+
+- [Le langage Nix](./chap97.md)
 - [Flakes](./chap98.md)
 - [Appendice 1: La thèse de Dolstra](./chap99.md)

@@ -1,5 +1,12 @@
 # Introduction aux Flakes dans Nix
 
+## Références
+
+https://jameswillia.ms/posts/flake-line-by-line.html
+https://vtimofeenko.com/posts/practical-nix-flake-anatomy-a-guided-tour-of-flake.nix/
+https://serokell.io/blog/practical-nix-flakes
+
+
 ## Dans ce chapitre
 
 - Introduction aux flakes dans Nix
